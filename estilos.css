@@ -1,0 +1,81 @@
+body {
+    background-color: rgba(94, 48, 94, 0.678) !important;
+}
+
+/* footer */
+.redes__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes__contendor ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes__contendor ul li a {
+    margin: 5px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.redes a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: rgb(94, 48, 94);
+    background-color: white;
+}
+
+
+.redes a i:hover {
+    color: white;
+    background-color:rgb(94, 48, 94);
+}
+
+
+/* home */
+
+.card .img__inicio {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: rgb(94, 48, 94);
+    color: white;
+    border: black;
+}
+
+/* galeria */
+@media screen and (min-width:770px) {
+ 
+    .aumentar {
+        transition: transform 0.5s;
+    }
+    
+    .aumentar:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+    
+}
+
+
+/* contacto */
+
+.formulario {
+    max-width: 30rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
